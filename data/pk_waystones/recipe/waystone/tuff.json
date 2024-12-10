@@ -10,7 +10,9 @@
   "result": {
     "id": "minecraft:player_head",
     "components": {
-      "minecraft:custom_model_data": 11130039,
+      "minecraft:custom_model_data": {
+        "strings": ["pk_waystones:tuff_waystone"]
+      },
       "minecraft:lore": [
         "{\"color\":\"dark_gray\",\"italic\":false,\"fallback\":\"Tuff Waystone\",\"translate\":\"item.pk_waystones.tuff_waystone\"}"
       ],
@@ -21,7 +23,7 @@
           "id": "waystone",
           "from": "waystones",
           "variant": "tuff",
-          "version": 11
+          "version": 30402
         }
       },
       "minecraft:profile": {

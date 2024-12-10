@@ -15,10 +15,10 @@ scoreboard players remove $i pk.temp 18
 execute if score $i_max pk.temp > $length pk.temp run scoreboard players operation $i_max pk.temp = $length pk.temp
 scoreboard players remove $i_max pk.temp 1
 
-# Store displayed amount of waystones (for toolbar's dynamical custom_model_data filler)
-scoreboard players operation $gui.page.waystones.amount pk.temp = $i_max pk.temp
-scoreboard players operation $gui.page.waystones.amount pk.temp -= $i pk.temp
-scoreboard players add $gui.page.waystones.amount pk.temp 1
+# Store displayed amount of waystones (for toolbar's dynamical gui_page_waystones_count filler)
+scoreboard players operation $gui.page.waystones.count pk.temp = $i_max pk.temp
+scoreboard players operation $gui.page.waystones.count pk.temp -= $i pk.temp
+scoreboard players add $gui.page.waystones.count pk.temp 1
 
 # Recursively set waystone item
 scoreboard players set $in_water pk.temp 0

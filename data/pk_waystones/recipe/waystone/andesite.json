@@ -10,7 +10,9 @@
   "result": {
     "id": "minecraft:player_head",
     "components": {
-      "minecraft:custom_model_data": 11130032,
+      "minecraft:custom_model_data": {
+        "strings": ["pk_waystones:andesite_waystone"]
+      },
       "minecraft:lore": [
         "{\"color\":\"dark_gray\",\"italic\":false,\"fallback\":\"Andesite Waystone\",\"translate\":\"item.pk_waystones.andesite_waystone\"}"
       ],
@@ -21,7 +23,7 @@
           "id": "waystone",
           "from": "waystones",
           "variant": "andesite",
-          "version": 11
+          "version": 30402
         }
       },
       "minecraft:profile": {

@@ -1,4 +1,4 @@
 {
-    "replace": false,
-    "values": ["#pk_waystones:boss", "#pk_waystones:hostile"]
+  "replace": false,
+  "values": ["#pk_waystones:boss", "#pk_waystones:hostile"]
 }

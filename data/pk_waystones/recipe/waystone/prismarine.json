@@ -10,7 +10,9 @@
   "result": {
     "id": "minecraft:player_head",
     "components": {
-      "minecraft:custom_model_data": 11130038,
+      "minecraft:custom_model_data": {
+        "strings": ["pk_waystones:prismarine_waystone"]
+      },
       "minecraft:lore": [
         "{\"color\":\"dark_gray\",\"italic\":false,\"fallback\":\"Prismarine Waystone\",\"translate\":\"item.pk_waystones.prismarine_waystone\"}"
       ],
@@ -21,7 +23,7 @@
           "id": "waystone",
           "from": "waystones",
           "variant": "prismarine",
-          "version": 11
+          "version": 30402
         }
       },
       "minecraft:profile": {

@@ -1,0 +1,1 @@
+$data modify storage pk:common temp.args.custom_model_data set value {strings:["pk_waystones:gui_page_waystones_count_$(waystones_count)"]}

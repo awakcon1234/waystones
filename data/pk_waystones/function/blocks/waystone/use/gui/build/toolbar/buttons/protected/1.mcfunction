@@ -1,7 +1,7 @@
 #> pk_waystones:blocks/waystone/use/gui/build/toolbar/buttons/protected/1
 
 # Prepare item's default data
-data modify storage pk:common temp.gui.item set value {id:"minecraft:leather_chestplate",count:1,components:{"minecraft:custom_name":'[{"text":"Protection: ","italic":false},{"text":"Enabled","color":"green"}]',"minecraft:lore":['{"text":"Click to disable protection","color":"gray","italic":false}'],"minecraft:attribute_modifiers":{modifiers:[],show_in_tooltip:false},"minecraft:dyed_color":{rgb:8439583,show_in_tooltip:false},"minecraft:trim":{material:"minecraft:emerald",pattern:"minecraft:sentry",show_in_tooltip:false},"minecraft:custom_data":{pk_data:{gui:1b,from:"waystones",trigger:"protected/change",trigger_params:{allowed:0b,protected:0b}}},"minecraft:custom_model_data":11130066},Slot:22b}
+data modify storage pk:common temp.gui.item set value {id:"minecraft:leather_chestplate",count:1,components:{"minecraft:custom_name":'[{"text":"Protection: ","italic":false},{"text":"Enabled","color":"green"}]',"minecraft:lore":['{"text":"Click to disable protection","color":"gray","italic":false}'],"minecraft:attribute_modifiers":{modifiers:[],show_in_tooltip:false},"minecraft:dyed_color":{rgb:8439583,show_in_tooltip:false},"minecraft:trim":{material:"minecraft:emerald",pattern:"minecraft:sentry",show_in_tooltip:false},"minecraft:custom_data":{pk_data:{gui:1b,from:"waystones",trigger:"protected/change",trigger_params:{allowed:0b,protected:0b}}},"minecraft:custom_model_data":{strings:["pk_waystones:gui_protection_true"]}},Slot:22b}
 
 # Check permissions
 #   Disallow by default
