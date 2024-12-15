@@ -25,8 +25,8 @@ $scoreboard players set $pk.waystones.settings.xp_consumption.value pk.value $(v
 
 # Logs
 #   Mode manatthan or euclidian
-execute if score $pk.waystones.settings.xp_consumption.value pk.value matches 1.. if score $pk.waystones.settings.xp_consumption.mode pk.value matches 0..1 run tellraw @s [{"text":"Teleporting now requires 1 level per ","color":"gray"},{"nbt":"temp.value","storage":"pk:common","color":"yellow"},{"text":" blocks, distance between two waystones being calculated with the \"","color":"gray"},{"nbt":"temp.mode","storage":"pk:common","color":"yellow"},{"text":"\" method","color":"gray"}]
+execute if score $pk.waystones.settings.xp_consumption.value pk.value matches 1.. if score $pk.waystones.settings.xp_consumption.mode pk.value matches 0..1 run tellraw @s [{"text":"Dịch chuyển hiện yêu cầu một cấp độ mỗi ","color":"gray"},{"nbt":"temp.value","storage":"pk:common","color":"yellow"},{"text":" khối, khoảng cách giữa hai đá dịch chuyển được tính theo thuật toán \"","color":"gray"},{"nbt":"temp.mode","storage":"pk:common","color":"yellow"},{"text":"\".","color":"gray"}]
 #   Mode fixed
-execute if score $pk.waystones.settings.xp_consumption.value pk.value matches 1.. if score $pk.waystones.settings.xp_consumption.mode pk.value matches 2 run tellraw @s [{"text":"Teleporting now requires ","color":"gray"},{"nbt":"temp.value","storage":"pk:common","color":"yellow"},{"text":" level(s) no matter the distance that separates both waystones","color":"gray"}]
+execute if score $pk.waystones.settings.xp_consumption.value pk.value matches 1.. if score $pk.waystones.settings.xp_consumption.mode pk.value matches 2 run tellraw @s [{"text":"Dịch chuyển hiện yêu cầu ","color":"gray"},{"nbt":"temp.value","storage":"pk:common","color":"yellow"},{"text":" cấp độ, không tính đến khoảng cách giữa hai đá dịch chuyển","color":"gray"}]
 #   Disable setting
-execute unless score $pk.waystones.settings.xp_consumption.value pk.value matches 1.. run tellraw @s [{"text":"Level Consumption","color":"yellow"},{"text":" on teleportation has been disabled","color":"gray"}]
+execute unless score $pk.waystones.settings.xp_consumption.value pk.value matches 1.. run tellraw @s [{"text":"Yêu cầu cấp độ","color":"yellow"},{"text":" khi dịch chuyển hiện đã được vô hiệu hóa","color":"gray"}]

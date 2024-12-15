@@ -2,7 +2,7 @@
 # @context any at the waystone to remove (chunk loaded)
 
 # Logs
-tellraw @a[tag=pk.waystones.uninstaller] [{"text": "Removed Waystone at [","color": "gray"},{"nbt":"uninstall.waystone.location.x","storage":"pk:waystones"},{"text": ","},{"nbt":"uninstall.waystone.location.y","storage":"pk:waystones"},{"text": ","},{"nbt":"uninstall.waystone.location.z","storage":"pk:waystones"},{"text": "] in "},{"nbt":"uninstall.waystone.location.dimension","storage":"pk:waystones"}]
+tellraw @a[tag=pk.waystones.uninstaller] [{"text": "Đã loại bỏ Đá dịch chuyển tại [","color": "gray"},{"nbt":"uninstall.waystone.location.x","storage":"pk:waystones"},{"text": ","},{"nbt":"uninstall.waystone.location.y","storage":"pk:waystones"},{"text": ","},{"nbt":"uninstall.waystone.location.z","storage":"pk:waystones"},{"text": "] in "},{"nbt":"uninstall.waystone.location.dimension","storage":"pk:waystones"}]
 
 # Remove waystones blocks and entities
 execute at @e[type=marker,tag=pk.waystones.waystone.controller] run fill ~ ~-1 ~ ~ ~ ~ air

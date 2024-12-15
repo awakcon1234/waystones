@@ -11,4 +11,4 @@ function pk_waystones:_main/uninstall/remove_specific_features
 execute unless data storage pk:common installed_datapack[{}] unless data storage pk.common:data Datapacks[{}] run function pk_waystones:_main/uninstall/remove_all_features
 
 # Logs
-tellraw @s [{"text": "Uninstalled ","color": "yellow"},{"text": "KawaMood's Waystones ","color": "aqua","bold": true},{"text": " successfully"},{"text": "\nYou can now safely remove this data pack from the folder of your world","color": "yellow"}]
+tellraw @s [{"text": "Đã gỡ bỏ ","color": "yellow"},{"text": "KawaMood's Waystones ","color": "aqua","bold": true},{"text": " thành công"},{"text": "\nBây giờ bạn có thể xóa datapack này khỏi thư mục datapack của thế giới","color": "yellow"}]
