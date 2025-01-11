@@ -21,6 +21,9 @@ data modify storage pk:common temp.gui.item.components."minecraft:custom_data".p
 data modify block ~ ~-1 ~ front_text.messages[0] set value '{"nbt":"temp.visible_waystone.name","storage":"pk:common","color":"yellow","italic":false,"interpret":true}'
 data modify storage pk:common temp.gui.item.components."minecraft:custom_name" set from block ~ ~-1 ~ front_text.messages[0]
 
+# Set bundle_content (to avoid the item to be collectable with bundles)
+data modify storage pk:common temp.gui.item.components."minecraft:bundle_contents" set value [{id:"minecraft:stick",count:64}]
+
 # Set location in lore
 data modify storage pk:common temp.gui.item.components."minecraft:lore" set value []
 data modify block ~ ~-1 ~ front_text.messages[0] set value '[{"text":"Tại [","color":"gray","italic":false},{"nbt":"temp.visible_waystone.location.x","storage":"pk:common"},{"text":", "},{"nbt":"temp.visible_waystone.location.y","storage":"pk:common"},{"text":", "},{"nbt":"temp.visible_waystone.location.z","storage":"pk:common"},{"text":"] trong "},{"nbt":"temp.visible_waystone.location.dimension","storage":"pk:common"}]'
